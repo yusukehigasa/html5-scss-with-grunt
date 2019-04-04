@@ -1,7 +1,8 @@
 // import default setting files
-@import 'parts/resets';
-@import 'parts/dimensions';
-@import 'parts/colors';
+@import 'functions';
+@import 'colors';
+@import 'sizes';
+@import 'resets';
 
 // import layout setting files
 @import 'layout/header';
@@ -11,6 +12,6 @@
 // import each files
 @import 'main/common';
 
-// set media query if responsive
-@media(all and max-width: 667px) {
-}
+// import parts files
+@import 'parts/buttons';
+@import 'parts/icons';

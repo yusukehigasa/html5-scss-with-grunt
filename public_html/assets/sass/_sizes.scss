@@ -1,0 +1,17 @@
+// Array for margin|padding
+$space-sizes: (
+    tiny: 5px,
+    small: 10px,
+    normal: 20px,
+    large: 40px,
+    huge: 80px,
+) !default;
+
+// Array for text-size
+$text-sizes: (
+    tiny: 1.0rem,
+    small: 1.2rem,
+    normal: 1.4rem,
+    large: 1.8rem,
+    huge: 2.4rem,
+) !default;

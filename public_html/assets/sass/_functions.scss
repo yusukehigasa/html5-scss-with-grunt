@@ -1,0 +1,18 @@
+// centering
+@mixin _centering {
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+}
+// mouser hover
+@mixin _hover {
+    transition: .3s ease-out;
+    &:hover { opacity: .65; }
+}
+// text size
+@mixin _fontSize($size) {
+    @if $size == "tiny"  { font-size: 1.0rem; }
+    @if $size == "small" { font-size: 1.2rem; }
+    @if $size == "large" { font-size: 1.8rem; }
+    @if $size == "huge"  { font-size: 2.4rem; }
+}
